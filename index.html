@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vet clinic</title>
   <link rel="stylesheet" href="./css/normalize.css">
-  <!-- <link rel="stylesheet" href="./css/main.css"> -->
-  <link rel="stylesheet" href="./css/main.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
 <body>
 <!-- header started -->
@@ -42,10 +42,10 @@
      <div class="wrapper_navigatin">
       <div class="container">
         <div class="navigation_inner">
-      <a href="" class="site_logo_link">
-        <img src=".//images/sitelogo.svg" alt="Vet clinic site logo" class="site_logo_img" width="178" height="86">
-      </a>
-      <nav class="site_nav">
+        <a href="" class="site_logo_link">
+         <img src=".//images/sitelogo.svg" alt="Vet clinic site logo" class="site_logo_img" width="178" height="86">
+        </a>
+        <nav class="site_nav">
         <ul class="site_nav_list list_unstyle">
           <li class="site_nav_item">
             <a href="/" class="site_nav_link">Главная</a>
@@ -97,7 +97,7 @@
           <span class="line"></span>
           <blockquote class="article_text">Наша ветеринарная клиника готова уделить максимум внимания Вам и Вашему питамцу. Здоровье и благополучие Ваших животных очень важно для нас и мы стремимся оказать наилучшую возможную ветеринарную помощь.</blockquote>
           <span class="line"></span>
-          <p class="author_text">Оржоникидзевская Ветеринарная клиника</p>
+          <cite class="author_text">Оржоникидзевская Ветеринарная клиника</cite>
           
         </div>
       </div>
@@ -151,6 +151,7 @@
     </section>
     <section class="registar">
       <div class="container">
+        <h2 class="registar_title">Будь в курсе событий</h2>
         <form class="registar_form" action="https://echo.htmlacademy.ru/courses" method="post">
           <input class="input_register" type="email" placeholder="Укажите Ваш email адрес" aria-label="enter your email" name="email">
           <button class="registar_btn" type="submit">Подписаться</button>
@@ -204,14 +205,15 @@
       </div>
     </section>
     <section class="location">
-      <div class="container">
+        <div class="wrapper_location_inner">
+        <img class="location_img" src="./images/locationimg.png" width="462" height="652" srcset="./images/locationimg.png 1x, ./images/locationimg@2x.png 2x" alt="site location img">
         <div class="location_inner">
           <h2 class="location_title">Обратная связь</h2>
           <p class="location_title_desc">При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:</p>
           <form class="location_form" action="https://echo.htmlacademy.ru/courses" method="post">
             <input class="location_input" type="text" placeholder="Ваше имя" aria-label="enter your name" name="name">
             <input class="location_input" type="email" placeholder="Email для обратной связи" aria-label="enter your email" name="email">
-            <textarea class="message" placeholder="Message" name="message">Например: в каком возрасте можно прививать от бешенства?</textarea>
+            <textarea class="message" placeholder="Опишите Ваш вопрос." name="message"></textarea>
             <button class="location_btn">Задать нам вопрос</button>
           </form>
         </div>
